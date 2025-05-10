@@ -1,0 +1,41 @@
+CREATE TABLE listings (
+    listingID INT PRIMARY KEY AUTO_INCREMENT,
+    bookAuthor VARCHAR(255),
+    bookCondition VARCHAR(255),
+    bookImg VARCHAR(255),
+    bookPrice DECIMAL(7,2),
+    creationDate VARCHAR(255),
+    sellerID INT,
+    bookName VARCHAR(255)
+);
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(255),
+    password VARCHAR(255),
+    university VARCHAR(255),
+    username VARCHAR(255)
+);
+
+CREATE TABLE savedListings(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    userID INT,
+    listingID INT
+);
+
+CREATE TABLE reports(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    reportedListingID INT,
+    reportedUserID INT,
+    reporterUserID INT,
+    reportMessage VARCHAR(255),
+    creationDate VARCHAR(255)
+);
+
+CREATE TABLE messages(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    senderID INT,
+    receiverID INT,
+    message VARCHAR(255)
+    timestamp timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

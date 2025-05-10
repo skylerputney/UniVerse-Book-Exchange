@@ -1,0 +1,104 @@
+/* #createListingModal {
+    color: #fff; /* Text color */
+/*} */
+
+
+.modal-header {
+    background-color: #1a1a1a; /* Darker header background color */
+}
+
+.modal-title {
+    color: violet; /* Title text color (yellow) */
+    font-weight: bold;
+}
+
+.modal-body {
+    background-color: #0c0c0c; /* Dark background color for body */
+}
+
+label {
+        color: violet; /* Text color in the body */
+}
+
+.violet-button {
+    background-color: rgba(200,100,200,0.3); /* Button background color (purple) */
+    color: #fff; /* Button text color */
+    border-color: violet; /* Button border color */
+}
+
+.violet-button:hover {
+        background-color: rgba(200,100,200,1); /* Darker purple on hover */
+}
+
+
+.modal-footer {
+    background-color: #1a1a1a; /* Darker footer background color */
+}
+
+.createListingForm{
+    margin: 0;
+}
+
+/* Style for the form-select */
+
+.form-select .custom-select {
+    position: relative;
+    width: 100%;
+}
+
+/* Hide default dropdown arrow */
+.form-select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Style the select arrow */
+.form-select .custom-select::after {
+    content: '\25BC';
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.form-control{
+    background-color: #5c5b5a;
+    border: 1px solid black;
+    color: #f6d6f6;
+}
+
+.form-control::placeholder{
+    color: #f6d6f6;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+  }
+
+#bookCondition{
+    background-color: #5c5b5a;
+    color:#f6d6f6;
+    border: 1px solid black;
+}
+    ::after{
+        color: #f6d6f6;
+    }
+
+

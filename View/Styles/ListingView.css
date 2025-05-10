@@ -1,0 +1,52 @@
+#viewListingModal {
+    background-color: #0c0c0c; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+.modal-header {
+    background-color: #1a1a1a; /* Darker header background color */
+}
+
+.modal-title {
+    color: violet; /* Title text color (yellow) */
+    font-weight: bold;
+}
+
+.modal-body {
+    background-color: #0c0c0c; /* Dark background color for body */
+}
+
+    .modal-body p {
+        color: #fff; /* Text color in the body */
+    }
+
+.close {
+    color: #ffd700; /* Close button color (yellow) */
+}
+
+.modal-footer {
+    background-color: #1a1a1a; /* Darker footer background color */
+}
+
+.btn-danger {
+    background-color: #ff0000; /* Delete button background color (red) */
+    border-color: #ff0000; /* Delete button border color */
+}
+
+    .btn-danger:hover {
+        background-color: #cc0000; /* Darker red on hover */
+    }
+
+.save-listing, .contact-seller-button {
+    background-color: rgba(200,100,200,0.3); /* Button background color (purple) */
+    color: #fff; /* Button text color */
+    border-color: violet; /* Button border color */
+    height:3.5rem;
+    margin-right:2%;
+    margin-left:2%;
+}
+
+    .save-listing:hover, .contact-seller-button:hover {
+        background-color: rgba(200,100,200,1); /* Darker purple on hover */
+    }
+
